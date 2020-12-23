@@ -9,5 +9,7 @@ class gitClass
 	int bugadd;
 	// 这是bug 提交
 	int bug1;
+	// 这是bug2 及提交
+	int bug2;
 };
 
