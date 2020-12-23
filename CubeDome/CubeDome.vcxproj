@@ -142,11 +142,13 @@
     <ClCompile Include="cricle.cpp" />
     <ClCompile Include="Cube.cpp" />
     <ClCompile Include="gitClass.cpp" />
+    <ClCompile Include="mastClase.cpp" />
     <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cricle.h" />
     <ClInclude Include="gitClass.h" />
+    <ClInclude Include="mastClase.h" />
     <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
