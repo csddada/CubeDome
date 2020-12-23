@@ -2,5 +2,7 @@
 class mastClase
 {
 	int ms;
+	// merge
+	int add;
 };
 
