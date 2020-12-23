@@ -24,18 +24,12 @@
     <ClCompile Include="Point.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="gitClass.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cricle.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Point.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="gitClass.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
