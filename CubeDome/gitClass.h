@@ -2,5 +2,7 @@
 class gitClass
 {
 	int b;
+	// ’‚ «dev
+	int git;
 };
 
