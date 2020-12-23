@@ -7,5 +7,7 @@ class gitClass
 	int a;
 	// 这是bug分支的提交
 	int bugadd;
+	// 这是bug1分支提交
+	int bugOne；
 };
 
