@@ -8,5 +8,7 @@ class mastClase
 	int b;
 	// add dev
 	int c;
+	// add dev1
+	int d;
 };
 
