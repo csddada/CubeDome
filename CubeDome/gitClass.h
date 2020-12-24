@@ -15,6 +15,8 @@ class gitClass
 	int bug3;
 	// 这是dev 的提交
 	int bug4;
+	// 这是dev的提交
+	int bug7;
 	// 这是dev3 的提交
 	int bug5;
 	// 这是dev2
