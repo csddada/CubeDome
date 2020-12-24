@@ -27,5 +27,7 @@ class gitClass
 	int rule;
 	// ≤‚ ‘rule1
 	int rule1;
+	// merge
+	int merge;
 };
 
