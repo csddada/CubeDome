@@ -25,5 +25,7 @@ class gitClass
 	int addFeature;
 	// ≤‚ ‘rule
 	int rule;
+	// ≤‚ ‘rule1
+	int rule1;
 };
 
