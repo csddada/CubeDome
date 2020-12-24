@@ -14,5 +14,7 @@ class mastClase
 	int a;
 	// add
 	int dd;
+	// addd
+	int aadd;
 };
 
