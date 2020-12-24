@@ -6,5 +6,7 @@ class mastClase
 	int add;
 	// add dev1
 	int b;
+	// add dev
+	int c;
 };
 
