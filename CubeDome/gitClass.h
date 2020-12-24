@@ -31,5 +31,7 @@ class gitClass
 	int merge;
 	// git commit amond
 	int merge2;
+	// git commit amond2
+	int merge3;
 };
 
