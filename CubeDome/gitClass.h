@@ -23,5 +23,7 @@ class gitClass
 	int bug6;
 	// ’‚ «dev
 	int addFeature;
+	// ≤‚ ‘rule
+	int rule;
 };
 
