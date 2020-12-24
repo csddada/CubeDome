@@ -29,5 +29,7 @@ class gitClass
 	int rule1;
 	// merge
 	int merge;
+	// git commit amond
+	int merge2;
 };
 
