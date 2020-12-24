@@ -21,5 +21,7 @@ class gitClass
 	int bug5;
 	// 这是dev2
 	int bug6;
+	// 这是dev
+	int addFeature;
 };
 
