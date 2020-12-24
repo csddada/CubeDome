@@ -27,5 +27,11 @@ class gitClass
 	int rule;
 	// ≤‚ ‘rule1
 	int rule1;
+	// merge
+	int merge;
+	// git commit amond
+	int merge2;
+	// git commit amond2
+	int merge3;
 };
 
