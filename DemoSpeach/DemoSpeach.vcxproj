@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpeachManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpeachMain.cpp" />
+    <ClCompile Include="SpeachManager.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
