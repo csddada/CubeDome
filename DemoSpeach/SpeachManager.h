@@ -9,5 +9,7 @@ class SpeachManager
 public:
 	SpeachManager();
 	~SpeachManager();
+	// œ‘ æ≤Àµ•
+	void showMenu();
 };
 
