@@ -11,5 +11,7 @@ public:
 	~SpeachManager();
 	// ÏÔÊ¾²Ëµ¥
 	void showMenu();
+	// ÍË³ö
+	void exitSystem();
 };
 

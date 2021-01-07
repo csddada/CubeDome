@@ -17,3 +17,9 @@ void SpeachManager::showMenu() {
 	cout << "**********************************" << endl;
 	cout << endl;
 }
+
+void SpeachManager::exitSystem() {
+	cout << "欢迎下次使用" << endl;
+	system("pause");
+	exit(0);
+}
