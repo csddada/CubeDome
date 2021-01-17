@@ -3,10 +3,16 @@
 using namespace std;
 
 int main() {
+	
+	
 	SpeachManager manager;
 	// 存储选择
 	int choice = 0;
-
+// 	test
+// 		for (map<int, Speaker>::iterator it = manager.m_Speaker.begin(); it != manager.m_Speaker.end(); it++)
+// 		{
+// 			cout << it->first << it->second.getName() << endl;
+// 		}
 	while (true) {
 		manager.showMenu();
 		cout << "输入你的选择" << endl;
@@ -14,6 +20,7 @@ int main() {
 		switch (choice)
 		{
 			// 开始比赛
+			manager.startSpeach();
 		case 1:
 			break;
 			// 查看往届比赛

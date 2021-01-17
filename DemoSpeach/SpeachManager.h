@@ -26,6 +26,13 @@ public:
 	void showMenu();
 	// 退出
 	void exitSystem();
+	// 初始化管理类
 	void initSpeachManager();
+	// 创建比赛选手
+	void creatSpeaker();
+	// 开始比赛
+	void startSpeach();
+	// 抽签
+	void speechDraw();
 };
 
