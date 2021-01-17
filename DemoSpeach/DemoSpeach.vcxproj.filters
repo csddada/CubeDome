@@ -18,12 +18,18 @@
     <ClInclude Include="SpeachManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Speaker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpeachManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SpeachMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Speaker.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

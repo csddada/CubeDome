@@ -20,10 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SpeachManager.h" />
+    <ClInclude Include="Speaker.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpeachMain.cpp" />
     <ClCompile Include="SpeachManager.cpp" />
+    <ClCompile Include="Speaker.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

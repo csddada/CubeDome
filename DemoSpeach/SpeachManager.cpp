@@ -1,10 +1,18 @@
 #include "SpeachManager.h"
 SpeachManager::SpeachManager() {
-
+	this->initSpeachManager();
 }
 
 SpeachManager::~SpeachManager() {
 
+}
+
+void SpeachManager::initSpeachManager() {
+	this->v1.clear();
+	this->v2.clear();
+	this->victory.clear();
+	this->m_Speaker.clear();
+	this->m_index = 1;
 }
 
 void SpeachManager::showMenu() {
