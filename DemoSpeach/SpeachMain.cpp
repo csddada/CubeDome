@@ -20,8 +20,8 @@ int main() {
 		switch (choice)
 		{
 			// 开始比赛
-			manager.startSpeach();
 		case 1:
+			manager.startSpeach();
 			break;
 			// 查看往届比赛
 		case 2:

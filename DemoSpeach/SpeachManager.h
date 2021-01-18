@@ -34,5 +34,7 @@ public:
 	void startSpeach();
 	// ³éÇ©
 	void speechDraw();
+	// ±ÈÈü
+	void speachContest();
 };
 
