@@ -36,5 +36,7 @@ public:
 	void speechDraw();
 	// 比赛
 	void speachContest();
+	// 显示分数
+	void showScore();
 };
 

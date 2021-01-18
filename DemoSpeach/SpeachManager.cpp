@@ -20,12 +20,42 @@ void SpeachManager::startSpeach() {
 	// battle
 	speachContest();
 	// show result
+	showScore();
 	// second round
+	this->m_index++;
 	// random
+	speechDraw();
 	// battle
+	speachContest();
 	// show result
-	// save score
+	showScore();
 
+}
+
+void SpeachManager::showScore() {
+	cout << "第" << this->m_index << "晋级选手如下" << endl;
+	if (this->m_index == 1) {
+		for (auto& it : v2) {
+			cout << "编号：" << it << "姓名：" << this->m_Speaker[it].getName() << "分数：" <<
+				this->m_Speaker[it].m_Score[this->m_index - 1] << endl;
+		}
+		cout << endl;
+
+		system("pause");
+		system("cls");
+		this->showMenu();
+	}
+	if (this->m_index == 2) {
+		for (auto& it : victory) {
+			cout << "编号：" << it << "姓名：" << this->m_Speaker[it].getName() << "分数：" <<
+				this->m_Speaker[it].m_Score[this->m_index - 1] << endl;
+		}
+		cout << endl;
+
+		system("pause");
+		system("cls");
+		this->showMenu();
+	}
 }
 
 void SpeachManager::speachContest() {
@@ -62,7 +92,7 @@ void SpeachManager::speachContest() {
 			int count = 0;
 			for (auto& it : groupScore) {
 				if (this->m_index == 1 && count < 3) {
-					v1.push_back(it.second);
+					v2.push_back(it.second);
 				}
 				else if (this->m_index == 2 && count < 3) {
 					victory.push_back(it.second);
