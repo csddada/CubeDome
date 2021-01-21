@@ -38,5 +38,7 @@ public:
 	void speachContest();
 	// 显示分数
 	void showScore();
+	// 保存记录
+	void saveRecord();
 };
 

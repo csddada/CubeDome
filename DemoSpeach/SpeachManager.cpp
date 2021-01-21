@@ -3,6 +3,7 @@
 #include <deque>
 #include <functional>
 #include <numeric>
+#include <fstream>
 
 SpeachManager::SpeachManager() {
 	this->initSpeachManager();
@@ -29,7 +30,23 @@ void SpeachManager::startSpeach() {
 	speachContest();
 	// show result
 	showScore();
+	// 保存记录
+	saveRecord();
+	cout << "比赛完成" << endl;
+	system("pause");
+	system("cls");
+}
 
+void SpeachManager::saveRecord() {
+	ofstream ofs;
+	ofs.open("speach.csv", ios::out | ios::app);
+
+	for (auto& it : victory) {
+		ofs << it << "," << this->m_Speaker[it].m_Score[1] << ",";
+	}
+	ofs << endl;
+	ofs.close();
+	cout <<"文件已保存" << endl;
 }
 
 void SpeachManager::showScore() {
